@@ -1,0 +1,16 @@
+E:\vswork\ATM\ATM\bin\Release\ATM.exe.config
+E:\vswork\ATM\ATM\obj\Release\ATM.csprojResolveAssemblyReference.cache
+E:\vswork\ATM\ATM\obj\Release\ATM.DashboardScreen.resources
+E:\vswork\ATM\ATM\obj\Release\ATM.LoginForm1.resources
+E:\vswork\ATM\ATM\obj\Release\ATM.Properties.Resources.resources
+E:\vswork\ATM\ATM\obj\Release\ATM.SighnUpScreen.resources
+E:\vswork\ATM\ATM\obj\Release\ATM.csproj.GenerateResource.Cache
+E:\vswork\ATM\ATM\obj\Release\ATM.exe
+E:\vswork\ATM\ATM\obj\Release\ATM.pdb
+E:\vswork\ATM\ATM\bin\Release\ATM.exe
+E:\vswork\ATM\ATM\bin\Release\ATM.pdb
+E:\vswork\ATM\ATM\obj\Release\ATM.TrustInfo.xml
+E:\vswork\ATM\ATM\bin\Release\ATM.exe.manifest
+E:\vswork\ATM\ATM\bin\Release\ATM.application
+E:\vswork\ATM\ATM\obj\Release\ATM.exe.manifest
+E:\vswork\ATM\ATM\obj\Release\ATM.application

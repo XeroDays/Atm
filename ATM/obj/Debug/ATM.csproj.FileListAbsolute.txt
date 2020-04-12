@@ -1,0 +1,6 @@
+E:\vswork\ATM\ATM\obj\Debug\ATM.DashboardScreen.resources
+E:\vswork\ATM\ATM\obj\Debug\ATM.LoginForm1.resources
+E:\vswork\ATM\ATM\obj\Debug\ATM.Properties.Resources.resources
+E:\vswork\ATM\ATM\obj\Debug\ATM.SighnUpScreen.resources
+E:\vswork\ATM\ATM\obj\Debug\ATM.csproj.GenerateResource.Cache
+E:\vswork\ATM\ATM\bin\Debug\ATM.exe.config

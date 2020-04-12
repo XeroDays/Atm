@@ -1,0 +1,42 @@
+E:\vswork\ATM\ATM\bin\Debug2\ATM.exe.config
+E:\vswork\ATM\ATM\bin\Debug2\ATM.exe
+E:\vswork\ATM\ATM\obj\Debug2\ATM.DashboardScreen.resources
+E:\vswork\ATM\ATM\obj\Debug2\ATM.LoginForm1.resources
+E:\vswork\ATM\ATM\obj\Debug2\ATM.Properties.Resources.resources
+E:\vswork\ATM\ATM\obj\Debug2\ATM.SighnUpScreen.resources
+E:\vswork\ATM\ATM\obj\Debug2\ATM.csproj.GenerateResource.Cache
+E:\vswork\ATM\ATM\obj\Debug2\ATM.exe
+E:\vswork\ATM\ATM\obj\Debug2\ATM.TrustInfo.xml
+E:\vswork\ATM\ATM\bin\Debug2\ATM.exe.manifest
+E:\vswork\ATM\ATM\bin\Debug2\ATM.application
+E:\vswork\ATM\ATM\obj\Debug2\ATM.csprojResolveAssemblyReference.cache
+E:\vswork\ATM\ATM\obj\Debug2\ATM.exe.manifest
+E:\vswork\ATM\ATM\obj\Debug2\ATM.application
+D:\vswork\ATM\ATM\bin\Debug2\ATM.exe.config
+D:\vswork\ATM\ATM\bin\Debug2\ATM.exe.manifest
+D:\vswork\ATM\ATM\bin\Debug2\ATM.application
+D:\vswork\ATM\ATM\bin\Debug2\ATM.exe
+D:\vswork\ATM\ATM\obj\Debug2\ATM.csprojResolveAssemblyReference.cache
+D:\vswork\ATM\ATM\obj\Debug2\ATM.DashboardScreen.resources
+D:\vswork\ATM\ATM\obj\Debug2\ATM.LoginForm1.resources
+D:\vswork\ATM\ATM\obj\Debug2\ATM.Properties.Resources.resources
+D:\vswork\ATM\ATM\obj\Debug2\ATM.SighnUpScreen.resources
+D:\vswork\ATM\ATM\obj\Debug2\ATM.csproj.GenerateResource.Cache
+D:\vswork\ATM\ATM\obj\Debug2\ATM.TrustInfo.xml
+D:\vswork\ATM\ATM\obj\Debug2\ATM.exe.manifest
+D:\vswork\ATM\ATM\obj\Debug2\ATM.application
+D:\vswork\ATM\ATM\obj\Debug2\ATM.exe
+D:\old lapi data\vswork\ATM\ATM\bin\Debug2\ATM.exe.config
+D:\old lapi data\vswork\ATM\ATM\bin\Debug2\ATM.exe.manifest
+D:\old lapi data\vswork\ATM\ATM\bin\Debug2\ATM.application
+D:\old lapi data\vswork\ATM\ATM\bin\Debug2\ATM.exe
+D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.csprojAssemblyReference.cache
+D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.DashboardScreen.resources
+D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.LoginForm1.resources
+D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.Properties.Resources.resources
+D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.SighnUpScreen.resources
+D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.csproj.GenerateResource.cache
+D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.TrustInfo.xml
+D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.exe.manifest
+D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.application
+D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.exe
