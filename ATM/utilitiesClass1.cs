@@ -26,7 +26,12 @@ namespace ATM
 
             if (!(File.Exists(data11)))
             {
+               
                 File.Create(data11).Close();
+            }
+            else
+            {
+                File.Delete(data11);
             }
 
         }

@@ -473,6 +473,7 @@ namespace ATM
         private void button9_Click(object sender, EventArgs e)
         {
             utilitiesClass1.addtodb2(richTextBox1.Text);
+
             Process.Start(utilitiesClass1.data11);
         }
 
