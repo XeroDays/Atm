@@ -49,6 +49,7 @@ namespace ATM
             data += AccounttextBox3.Text + ":";
             data += PasswordtextBox4.Text + ":";
             data += initialbalnce.Text;
+           
             utilitiesClass1.addtodb(data);
             Reset();
             disable();

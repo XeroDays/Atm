@@ -40,3 +40,17 @@ D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.TrustInfo.xml
 D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.exe.manifest
 D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.application
 D:\old lapi data\vswork\ATM\ATM\obj\Debug2\ATM.exe
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\bin\Debug2\ATM.exe.config
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\bin\Debug2\ATM.exe.manifest
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\bin\Debug2\ATM.application
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\bin\Debug2\ATM.exe
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\obj\Debug2\ATM.csprojAssemblyReference.cache
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\obj\Debug2\ATM.DashboardScreen.resources
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\obj\Debug2\ATM.LoginForm1.resources
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\obj\Debug2\ATM.Properties.Resources.resources
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\obj\Debug2\ATM.SighnUpScreen.resources
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\obj\Debug2\ATM.csproj.GenerateResource.cache
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\obj\Debug2\ATM.TrustInfo.xml
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\obj\Debug2\ATM.exe.manifest
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\obj\Debug2\ATM.application
+C:\Users\Farooq Afridi\Source\Repos\farooq958\Atm\ATM\obj\Debug2\ATM.exe

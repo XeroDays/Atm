@@ -10,6 +10,7 @@ namespace ATM
         public static int balnce2;
         //   public static string data2= @"E:\vswork\ATM\"
         public static string data = Path.GetDirectoryName(Application.ExecutablePath) + @"\DATA.txt";
+        public static string data11 = Path.GetDirectoryName(Application.ExecutablePath) + @"\yourtransactiondeposit.txt";
         public static void createdata()
         {
 
@@ -23,6 +24,10 @@ namespace ATM
                 File.Create(data).Close();
             }
 
+            if (!(File.Exists(data11)))
+            {
+                File.Create(data11).Close();
+            }
 
         }
         public static void Write()
@@ -41,7 +46,13 @@ namespace ATM
         {
 
             File.AppendAllText(data, data1 + Environment.NewLine);
+          
+        }
+        public static void addtodb2(string data1)
+        {
 
+            
+            File.AppendAllText(data11, data1 + Environment.NewLine);
         }
         public static string loadbalnce;
         public static string getdataa;

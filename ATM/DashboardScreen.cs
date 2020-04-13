@@ -41,6 +41,7 @@ namespace ATM
 
         private void DashboardScreen_Load(object sender, EventArgs e)
         {
+            hidee();
             string pk = utilitiesClass1.getdata();
             string pl = utilitiesClass1.loadbalnce;
             //MessageBox.Show("Test" + pk) ;
@@ -59,6 +60,59 @@ namespace ATM
 
 
         }
+
+        private void hidee()
+        {
+            TransactiotextBox2.Hide();
+            Depositbutton1.Hide();
+            Transaction.Hide();
+            button1.Hide();
+            textBox1.Hide();
+            label5.Hide();
+            richTextBox1.Hide();
+            richTextBox2.Hide();
+            transactionlabel.Hide();
+            label2.Hide();
+            button6.Hide();
+            button7.Hide();
+            button8.Hide();
+            button9.Hide();
+        }
+        private void showw()
+        {
+            Depositbutton1.Show();
+            textBox1.Show();
+            button1.Show();
+            Transaction.Hide();
+            TransactiotextBox2.Hide();
+            richTextBox1.Show();
+            label5.Hide();
+            transactionlabel.Hide();
+            label2.Show();
+            richTextBox2.Hide();
+            button6.Hide();
+            button7.Hide();
+            button8.Show();
+            button9.Show();
+        }
+        private void show2()
+        {
+            Transaction.Show();
+            TransactiotextBox2.Show();
+            button1.Hide();
+            Depositbutton1.Hide();
+            textBox1.Hide();
+            richTextBox2.Show();
+            label5.Show();
+            transactionlabel.Show();
+            label2.Hide();
+            richTextBox1.Hide();
+            button6.Show();
+            button7.Show();
+            button8.Hide();
+            button9.Hide();
+        }
+
         public decimal balance(string data)
         {
             //data = null;
@@ -111,6 +165,7 @@ namespace ATM
                 //int i = 0;
                 //sew.Write(ko);
                 //sew.Write(textBox1.Text);
+                richTextBox1.Text += textBox1.Text +"Deposited Balance \t " + DateTime.Now.ToString() + Environment.NewLine;
                 return;
             }
 
@@ -214,7 +269,7 @@ namespace ATM
                 {
                     blnce += balance(textBox1.Text);
                     MessageBox.Show("Your Balance Has Been Added Now Deposit The Balance By CLicking The Deposit Button ", "Deposit It !", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                    Depositbutton1.Focus();
                     initialtotalbalance.Text = blnce.ToString();
                     Depositbutton1.Enabled = true;
                 }
@@ -286,8 +341,9 @@ namespace ATM
 
 
                     Transactionn();
-
+              
                     MessageBox.Show("Congratulation Amount of " + TransactiotextBox2.Text + " has been transacted .Please Remove Your Card Safely!! . Your Total Balance is " + initialtotalbalance.Text, "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    richTextBox2.Text += TransactiotextBox2.Text + "transacted Balance \t " + DateTime.Now.ToString() + Environment.NewLine;
                     //balance1 -= Convert.ToDecimal( TransactiotextBox2.Text);
                     return;
                     // MessageBox.Show("Test");
@@ -365,6 +421,59 @@ namespace ATM
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Desighned And Devolped By Muhammad Farooq,, ,Highly ENCRYPTED Saptware Dont ever Mess With it  .Feel free To contact US (+92)03202914433 ", "Spaarco ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (panel2.Width==120)
+            {
+                panel2.Width = 10;
+                return;
+            }
+            else
+            {
+                panel2.Width = 120;
+                return;
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            showw();
+            label4.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            show2();
+            label4.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            utilitiesClass1.addtodb2(richTextBox2.Text);
+            Process.Start(utilitiesClass1.data11);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            richTextBox2.Clear();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Clear();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            utilitiesClass1.addtodb2(richTextBox1.Text);
+            Process.Start(utilitiesClass1.data11);
         }
 
         //private bool check(string po)

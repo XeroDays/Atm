@@ -12,7 +12,7 @@ namespace ATM
 
         private void LoginForm1_Load(object sender, EventArgs e)
         {
-
+            button1.Focus();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -24,6 +24,11 @@ namespace ATM
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            Loginlogic();
+        }
+
+        private void Loginlogic()
         {
             DashboardScreen db = new DashboardScreen();
             if (utilitiesClass1.readtext(AccountpintextBox1.Text, passwordtextbox.Text) == true)
@@ -78,12 +83,27 @@ namespace ATM
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Desighned And Devolped By Muhammad Farooq  ,, ,Highly ENCRYPTED Saptware Dont ever Mess With it  .Feel free To contact US (+92)03202914433 ", "Spaarco ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Desighned And Devolped By Muhammad Farooq  ,Muhammad Ali,Adil Afridi ,Highly ENCRYPTED Saptware Dont ever Mess With it  .Feel free To contact US (+92)03202914433 ", "Spaarco ", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Under Construction");
+            MessageBox.Show(" Contact the Admin of Bank Farooq >> 03202914433 with following detail Your name Cnic and Father Name ");
+        }
+
+        private void button1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar.Equals(Convert.ToChar(13)))
+            {
+                button1_Click(sender, e);
+            }
+        }
+
+        private void button1_KeyDown(object sender, KeyEventArgs e)
+        {
+
+            
+
         }
     }
 }
